@@ -1,0 +1,57 @@
+/* desktop screen: 992px;
+laptop screen: 1200px;
+Tablet screen: 768px;
+Mobile screen: 576px; */
+
+/* Media Quary for Medium Secreen */
+@media (min-width: 576px) {
+  .introduction {
+    margin-top: 0rem;
+    line-height: 2rem;
+    padding-bottom: 6rem;
+    background-color: cadetblue;
+  }
+
+  body {
+    background-color: pink;
+  }
+  /* Nav Section */
+
+  /* Nav Section Ends */
+
+  /* Introduction */
+
+  /* End of Introduction */
+
+  /* Service Section */
+
+  /* End of Service Serction */
+
+  /* Project Section */
+
+  /* End of Project Section */
+
+  /* Tools Section */
+
+  /* End of Tool SEctions */
+
+  /* Testimonial Section */
+
+  /* End of Testimonial Section */
+
+  /* Certification */
+
+  #certificate ul li {
+    list-style: none;
+    line-height: 2rem;
+    margin-left: 3rem;
+    margin-left: 30%;
+    text-align: left;
+  }
+
+  #certificate h2 {
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    background-color: green;
+  }
+}
