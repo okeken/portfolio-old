@@ -4,8 +4,14 @@ Tablet screen: 768px;
 Mobile screen: 576px; */
 
 @media all and (min-width: 988px) {
-  #title {
+  .navplusintro {
     background: linear-gradient(150deg, #fbf9f9 65%, #4476a9 35%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .first-intro {
+    margin-left: rem;
   }
   .box-area {
     display: none;
@@ -26,7 +32,7 @@ Mobile screen: 576px; */
   .navbar-nav ul li a {
     position: relative;
     display: block;
-    padding: 0.2rem;
+    /* padding: 0.2rem; */
 
     text-decoration: none;
     text-transform: uppercase;
@@ -133,12 +139,12 @@ Mobile screen: 576px; */
 
   /* Introduction */
 
-  #title {
+  .navplusintro {
     text-align: center;
     padding-top: 1rem;
     background-color: #12114a !important;
-    padding-bottom: 3%;
     color: white;
+    margin: 0rem !important;
   }
 
   .navbar-toggler-icon {
@@ -208,7 +214,7 @@ Mobile screen: 576px; */
     display: block;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80% !important;
     height: 100%;
     overflow: hidden;
   }
@@ -225,9 +231,9 @@ Mobile screen: 576px; */
   }
 
   .box-area li:nth-child(1) {
-    left: 86%;
-    width: 80px;
-    height: 80px;
+    left: 57%;
+    width: 5rem;
+    height: 5rem;
     animation-delay: 0s;
   }
 
@@ -240,7 +246,7 @@ Mobile screen: 576px; */
   }
 
   .box-area li:nth-child(3) {
-    left: 70%;
+    left: 60%;
     width: 100px;
     height: 100px;
     animation-delay: 5.5s;
@@ -289,8 +295,10 @@ Mobile screen: 576px; */
     margin-top: 7rem !important;
     line-height: 4rem !important;
     padding-bottom: 3rem;
-    margin-left: 1.5rem;
+    margin-left: 0rem !important;
+    margin-right: 8rem !important;
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   .introduction .btn {
@@ -302,12 +310,13 @@ Mobile screen: 576px; */
   #about {
     max-width: 90%;
     margin: 0 auto;
+    padding-bottom: 2rem !important;
   }
 
   #about img {
     display: block;
     width: 75%;
-    margin: 0 auto;
+    margin: 1.8rem auto;
   }
 
   #about h2 {
@@ -323,19 +332,32 @@ Mobile screen: 576px; */
   /* End of Introduction */
 
   /* Service Section */
+  .service-section {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #service h2 {
+    margin: 0rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2rem;
+    font-size: 3rem;
+    padding-bottom: 0;
+  }
 
   #service h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    width: 85%;
+    margin: 0rem;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
   }
 
-  #service .service-section {
-    display: block;
-    margin: 0 auto;
-    margin-top: 1.6rem;
+  #service h5 {
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
   }
-
   /* End of Service Serction */
 
   /* Project Section */
@@ -394,6 +416,6 @@ Mobile screen: 576px; */
   }
   .client-img img {
     margin: 0 auto !important;
-    width: 60% !important;
+    width: 80% !important;
   }
 }
