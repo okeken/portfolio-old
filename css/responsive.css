@@ -119,7 +119,7 @@ Mobile screen: 576px; */
     display: none;
   }
 
-  .navbar-toggler-icon .fab {
+  .navbar-toggler-icon .fas {
     display: none;
   }
 }
@@ -166,11 +166,11 @@ Mobile screen: 576px; */
   }
 
   .navbar-brand,
-  .navbar-toggler-icon .fab {
+  .navbar-toggler-icon .fas {
     color: white !important;
   }
 
-  .navbar-toggler-icon .fab {
+  .navbar-toggler-icon .fas {
     color: white !important;
   }
 
