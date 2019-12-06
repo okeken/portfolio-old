@@ -1,10 +1,5 @@
 @import url(./responsive.css);
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 /*Title Section*/
 
 .title-class {
@@ -37,7 +32,8 @@ body {
   margin-top: 11rem;
   line-height: 2rem;
   padding-bottom: 6rem;
-  margin-left: 15%;
+
+  margin-right: 2rem;
 }
 
 .hey {
@@ -48,7 +44,6 @@ body {
 
 .hey::after {
   content: '';
-
   height: 2.5px;
   width: 25%;
   background: black;
@@ -59,14 +54,12 @@ body {
 .job-title {
   font-size: 1.2rem;
   font-weight: 500;
-  background-color: ;
   text-transform: uppercase;
 }
 
 .devstage {
   font-size: 0.9rem;
   font-weight: 650;
-  background-color: ;
   text-transform: uppercase;
 }
 .introduction .row h1 {
@@ -96,13 +89,12 @@ body {
 /*About Section*/
 
 #about {
-  margin-top: -0.9rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  margin: 0 auto;
+  padding: 0;
 }
 
 #about img {
-  width: 65%;
+  max-width: 65%;
 }
 
 .lletter {
@@ -123,36 +115,12 @@ body {
 
 /*Services Section*/
 
-.service-place {
-  text-align: center;
-  background-color: white;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-}
-
-.service-place h2 {
-  margin: 0rem 0 auto;
-  padding-top: 2rem;
-  font-size: 3rem;
-  padding-bottom: 0;
-}
-
-.service-place h3 {
-  margin: 1.5rem auto;
-  font-size: 1.2rem;
-  padding-bottom: 3rem;
-}
-
-.service-place h5 {
-  margin: 1.5rem auto;
-  font-size: 1.2rem;
-}
-
 .service-section {
   background: rgba(248, 252, 253, 0.973);
-  width: 16rem;
-  margin: 1rem 0.5rem;
-  padding: 2rem 0;
+  /* width: 16rem; */
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
+
   transition: box-shadow 0.7s ease;
 }
 
