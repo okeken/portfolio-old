@@ -89,7 +89,9 @@
 /*About Section*/
 
 #about {
-  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
 }
 
@@ -104,7 +106,7 @@
 #about h2 {
   letter-spacing: 0.9rem;
   line-height: 3.5rem;
-  margin-bottom: 1.5rem;
+
   font-size: 3rem;
 }
 
@@ -117,10 +119,8 @@
 
 .service-section {
   background: rgba(248, 252, 253, 0.973);
-  /* width: 16rem; */
   margin-top: 1.5rem;
   padding-top: 1.2rem;
-
   transition: box-shadow 0.7s ease;
 }
 
@@ -286,19 +286,72 @@
 
 #certificate {
   text-align: center;
-  padding-top: ;
-}
-
-#certificate ul li {
-  list-style: none;
-  line-height: 2rem;
-  margin-left: 3rem;
-  margin-left: 30%;
-  text-align: left;
+  margin-bottom: 4rem;
 }
 
 #certificate h2 {
   padding-bottom: 3rem;
+}
+
+.cert {
+}
+
+#cert h4 {
+  font-size: 1.2rem;
+  border: 2px solid white;
+  font-weight: 400;
+}
+
+.cert-test {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0.5rem 0;
+}
+
+.cert1 {
+  margin-right: 0.5rem;
+  padding: 0 1.5rem;
+}
+
+.cert2 {
+  margin-left: 0.5rem;
+  padding: 0 1.5rem;
+}
+
+.certin {
+  margin-top: 1rem;
+  text-align: right;
+  padding: 0.5rem 2rem;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  transition: transform 0.7s ease;
+}
+
+.certre:hover,
+.certin:hover {
+  transform: scale(1.1);
+  color: ;
+  border-bottom: 2px solid red;
+  padding-bottom: 0;
+  text-align: center;
+  letter-spacing: 0.01rem;
+  cursor: pointer;
+}
+.test-popup-link1 {
+  color: black;
+}
+.certre a:hover,
+.certin a:hover {
+  text-decoration: none;
+}
+.certre {
+  margin-top: 1rem;
+  transition: transform 0.7s ease;
+  text-align: ;
+  padding: 0.5rem 2rem;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
 /*Contact Me Section*/

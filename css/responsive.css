@@ -112,6 +112,22 @@ Mobile screen: 576px; */
     font-family: cursive;
     margin-left: 8rem;
   }
+
+  #about{
+    padding-top:8rem!important;
+    padding-bottom:8rem!important;
+  
+
+  }
+
+  #service{
+    padding-top:7.5rem;
+    padding-bottom:9rem;
+  }
+  #service h2{
+    padding-bottom:1.5rem;
+  }
+
 }
 
 @media all and (min-width: 577px) and (max-width: 987px) {
@@ -120,6 +136,10 @@ Mobile screen: 576px; */
   }
 
   .navbar-toggler-icon .fas {
+    display: none;
+  }
+   /* Certification */
+   .certin{
     display: none;
   }
 }
@@ -163,6 +183,7 @@ Mobile screen: 576px; */
     z-index: 999;
     transition: background 1s ease;
     padding-bottom: 5rem !important;
+    color
   }
 
   .navbar-brand,
@@ -181,7 +202,7 @@ Mobile screen: 576px; */
   .main-menu ul li {
     color: white !important;
     cursor: pointer;
-    background-color: #08234ac9;
+    background-color: #08234ac9!important;
   }
 
   .main-menu a {
@@ -416,6 +437,11 @@ Mobile screen: 576px; */
   }
   .client-img img {
     margin: 0 auto !important;
-    width: 80% !important;
+    width: 70% !important;
+  }
+
+  /* Certification */
+  .certin{
+    display: none;
   }
 }
