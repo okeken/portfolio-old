@@ -294,6 +294,7 @@ Mobile screen: 576px; */
     height: 110px;
     animation-delay: 0s;
     animation-duration: 3.5s;
+    border-radius:50%;
   }
 
   @keyframes animate {
