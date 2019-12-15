@@ -256,6 +256,7 @@ Mobile screen: 576px; */
     width: 5rem;
     height: 5rem;
     animation-delay: 0s;
+    border-radius:50%;
   }
 
   .box-area li:nth-child(2) {
@@ -271,6 +272,7 @@ Mobile screen: 576px; */
     width: 100px;
     height: 100px;
     animation-delay: 5.5s;
+    border-radius:50%;
   }
 
   .box-area li:nth-child(4) {
@@ -279,6 +281,7 @@ Mobile screen: 576px; */
     height: 150px;
     animation-delay: 0s;
     animation-duration: 15s;
+    border-radius:50%;
   }
 
   .box-area li:nth-child(5) {
@@ -294,6 +297,7 @@ Mobile screen: 576px; */
     height: 110px;
     animation-delay: 0s;
     animation-duration: 3.5s;
+    border-radius:50%;
   }
 
   @keyframes animate {
