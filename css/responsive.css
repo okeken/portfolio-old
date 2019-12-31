@@ -448,7 +448,8 @@ Mobile screen: 576px; */
   .certin {
     display: none;
   }
-   .navbar-nav{
-    background-color:#12114ae3!important;
+  
+.dropdown-item {
+    background-color: #12114ae3 !important;
   }
 }
