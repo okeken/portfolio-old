@@ -152,6 +152,76 @@ Mobile screen: 576px; */
   .navbar {
     color: white !important;
   }
+  
+  /**************** / 
+Menu CSS Begins
+/*****************/ 
+  
+  .menu-div {
+    position: absolute;
+    right: 1rem;
+    right: 3rem;
+    width: 28px;
+    height: 12px;
+    cursor: pointer;
+  }
+
+  .menu-hamburger {
+    content: '';
+    position: absolute;
+    right: 0rem;
+    width: 28px;
+    height: 3px;
+    transition: all 2s ease-out;
+    background: orange;
+  }
+
+  .menu-hamburger::before {
+    background-color: white;
+    content: '';
+    top: -9px !important;
+    width: 28px;
+    height: 3px;
+    right: 0rem;
+    position: absolute;
+    transition: all 2s ease-out;
+  }
+
+  .menu-hamburger::after {
+    background-color: white;
+    content: '';
+    top: 9px;
+    width: 20px;
+    height: 3px;
+    right: 0rem;
+    position: absolute;
+  }
+
+  .menu-hamburger-open {
+    background: transparent;
+    transform: rotate(360deg);
+  }
+  .menu-hamburger-open:before {
+    transform: rotate(45deg) translate(5px, 8px);
+  }
+
+  .menu-hamburger-open:after {
+    background: red;
+    transform: rotate(-45deg) translate(3px, -7px);
+    width: 28px;
+  }
+
+  .navbar-open {
+    width: 100vh !important;
+    height: 100vh !important;
+    background-color: #261e6bde !important;
+    color: white;
+  }
+
+/**************** / 
+Menu CSS Ends
+/*****************/  
+  
 
   .nav-item nav-link {
     color: white;
