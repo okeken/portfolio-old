@@ -207,9 +207,6 @@ Mobile screen: 576px; */
   .main-menu ul li {
     color: white !important;
     cursor: pointer;
-    background-color: peru;
-    /* background-color: #08234ac9!important; */
-    /* Background color of the the dropdown menu for the mobile devices */
   }
 
   .main-menu a {
