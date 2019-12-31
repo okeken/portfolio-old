@@ -10,16 +10,12 @@ Mobile screen: 576px; */
     margin-right: auto;
   }
 
-  .first-intro {
-    margin-left: rem;
-  }
   .box-area {
     display: none;
   }
   .navbar-nav ul {
     position: absolute;
     margin-top: 3rem !important;
-
     transform: translate(50%, -50%);
     padding: 0;
     display: flex;
@@ -27,6 +23,7 @@ Mobile screen: 576px; */
 
   .navbar-nav ul li {
     list-style: none;
+    border: 2px solid red;
   }
 
   .navbar-nav ul li a {
@@ -113,21 +110,18 @@ Mobile screen: 576px; */
     margin-left: 8rem;
   }
 
-  #about{
-    padding-top:8rem!important;
-    padding-bottom:8rem!important;
-  
-
+  #about {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
   }
 
-  #service{
-    padding-top:7.5rem;
-    padding-bottom:9rem;
+  #service {
+    padding-top: 7.5rem;
+    padding-bottom: 9rem;
   }
-  #service h2{
-    padding-bottom:1.5rem;
+  #service h2 {
+    padding-bottom: 1.5rem;
   }
-
 }
 
 @media all and (min-width: 577px) and (max-width: 987px) {
@@ -136,90 +130,35 @@ Mobile screen: 576px; */
   }
 
   .navbar-toggler-icon .fas {
-    display: none;
+   color:white!important;
   }
-   /* Certification */
-   .certin{
+  
+  /* Certification */
+  .certin {
     display: none;
   }
 }
 
 @media all and (max-width: 576px) {
+  /* Header Section */
+  /* .navbar-toggler {
+    display: none;
+  } */
+  .menu-burger {
+    position: absolute;
+    top: 0.1rem;
+    right: 0.4rem;
+    width: 28px;
+    height: 3px;
+    color: green;
+    border: 2px solid white;
+  }
+
   /* Nav Section */
- 
+
   .navbar {
     color: white !important;
   }
-  
-  /**************** / 
-Menu CSS Begins
-/*****************/ 
-  
-  .menu-div {
-    position: absolute;
-    right: 1rem;
-    right: 3rem;
-    width: 28px;
-    height: 12px;
-    cursor: pointer;
-  }
-
-  .menu-hamburger {
-    content: '';
-    position: absolute;
-    right: 0rem;
-    width: 28px;
-    height: 3px;
-    transition: all 2s ease-out;
-    background: orange;
-  }
-
-  .menu-hamburger::before {
-    background-color: white!important;
-    content: '';
-    top: -9px !important;
-    width: 28px;
-    height: 3px;
-    right: 0rem;
-    position: absolute;
-    transition: all 2s ease-out;
-  }
-
-  .menu-hamburger::after {
-    background-color: white!important;
-    content: '';
-    top: 9px;
-    width: 20px;
-    height: 3px;
-    right: 0rem;
-    position: absolute;
-  }
-
-  .menu-hamburger-open {
-    background: transparent;
-    transform: rotate(360deg);
-  }
-  .menu-hamburger-open:before {
-    transform: rotate(45deg) translate(5px, 8px);
-  }
-
-  .menu-hamburger-open:after {
-    background: red;
-    transform: rotate(-45deg) translate(3px, -7px);
-    width: 28px;
-  }
-
-  .navbar-open {
-    width: 100vh !important;
-    height: 100vh !important;
-    background-color: #261e6bde !important;
-    color: white;
-  }
-
-/**************** / 
-Menu CSS Ends
-/*****************/  
-  
 
   .nav-item nav-link {
     color: white;
@@ -253,7 +192,6 @@ Menu CSS Ends
     z-index: 999;
     transition: background 1s ease;
     padding-bottom: 5rem !important;
-    color
   }
 
   .navbar-brand,
@@ -272,7 +210,9 @@ Menu CSS Ends
   .main-menu ul li {
     color: white !important;
     cursor: pointer;
-    background-color: #08234ac9!important;
+    background-color: peru;
+    /* background-color: #08234ac9!important; */
+    /* Background color of the the dropdown menu for the mobile devices */
   }
 
   .main-menu a {
@@ -326,7 +266,7 @@ Menu CSS Ends
     width: 5rem;
     height: 5rem;
     animation-delay: 0s;
-    border-radius:50%;
+    border-radius: 50%;
   }
 
   .box-area li:nth-child(2) {
@@ -342,7 +282,7 @@ Menu CSS Ends
     width: 100px;
     height: 100px;
     animation-delay: 5.5s;
-    border-radius:50%;
+    border-radius: 50%;
   }
 
   .box-area li:nth-child(4) {
@@ -351,7 +291,7 @@ Menu CSS Ends
     height: 150px;
     animation-delay: 0s;
     animation-duration: 15s;
-    border-radius:50%;
+    border-radius: 50%;
   }
 
   .box-area li:nth-child(5) {
@@ -367,7 +307,7 @@ Menu CSS Ends
     height: 110px;
     animation-delay: 0s;
     animation-duration: 3.5s;
-    border-radius:50%;
+    border-radius: 50%;
   }
 
   @keyframes animate {
@@ -396,8 +336,6 @@ Menu CSS Ends
     text-align: center;
   }
 
-  .introduction .btn {
-  }
   .banner-img img {
     display: none;
   }
@@ -456,8 +394,6 @@ Menu CSS Ends
   /* End of Service Serction */
 
   /* Project Section */
-  .project-area .button-group button {
-  }
 
   .project-area .button-group button + button {
     margin: 0;
@@ -515,7 +451,7 @@ Menu CSS Ends
   }
 
   /* Certification */
-  .certin{
+  .certin {
     display: none;
   }
 }
