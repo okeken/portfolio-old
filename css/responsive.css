@@ -452,4 +452,8 @@ Mobile screen: 576px; */
 .dropdown-item {
     background-color: #12114ae3 !important;
   }
+  
+  nav {
+    background-color:#12114ae3 !important;
+  }
 }
