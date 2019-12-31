@@ -148,6 +148,7 @@ Mobile screen: 576px; */
   /* Nav Section */
 
   .navbar {
+    background-color: black !important;
     color: white !important;
   }
 
