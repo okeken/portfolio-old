@@ -23,14 +23,11 @@ Mobile screen: 576px; */
 
   .navbar-nav ul li {
     list-style: none;
-    border: 2px solid red;
   }
 
   .navbar-nav ul li a {
     position: relative;
     display: block;
-    /* padding: 0.2rem; */
-
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
