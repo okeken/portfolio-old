@@ -146,8 +146,8 @@ Mobile screen: 576px; */
 
 @media all and (max-width: 576px) {
   /* Nav Section */
-.fas{
-  display:none;
+  .navbar-toggler-icon .fas {
+    display: none;
   }
   .navbar {
     background-color: black !important;
