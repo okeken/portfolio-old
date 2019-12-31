@@ -177,7 +177,7 @@ Menu CSS Begins
   }
 
   .menu-hamburger::before {
-    background-color: white;
+    background-color: white!important;
     content: '';
     top: -9px !important;
     width: 28px;
@@ -188,7 +188,7 @@ Menu CSS Begins
   }
 
   .menu-hamburger::after {
-    background-color: white;
+    background-color: white!important;
     content: '';
     top: 9px;
     width: 20px;
