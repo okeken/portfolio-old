@@ -147,10 +147,9 @@ Mobile screen: 576px; */
 @media all and (max-width: 576px) {
   /* Nav Section */
   .navbar-toggler-icon .fas {
-    display: none;
+    display: none!important;
   }
   .navbar {
-    background-color: black !important;
     color: white !important;
   }
 
