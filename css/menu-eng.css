@@ -1,0 +1,68 @@
+/**************** / 
+Menu CSS
+/*****************/
+
+@media all and (max-width: 576px) {
+  .menu-div {
+    /* position: absolute;
+    right: 1rem; */
+    right: 3rem;
+    width: 28px;
+    height: 12px;
+    cursor: pointer !important;
+  }
+
+  .menu-hamburger {
+    content: 'hello';
+    width: 28px;
+    height: 3px;
+    transition: all 2s ease-out;
+    background: orange;
+    position: absolute;
+    right: 2rem;
+    top: 1.55rem;
+  }
+
+  .menu-hamburger::before {
+    background-color: white;
+    content: '';
+    transition: all 2s ease-out;
+    width: 28px;
+    height: 3px;
+    position: absolute;
+    top: -9px !important;
+    right: 0.04rem;
+  }
+
+  .menu-hamburger::after {
+    background-color: white;
+    content: '';
+    top: 9px;
+    width: 20px;
+    height: 3px;
+    right: 0.04rem;
+    position: absolute;
+    top: 9px;
+  }
+
+  .menu-hamburger-open {
+    background: transparent;
+    transform: rotate(360deg);
+  }
+  .menu-hamburger-open:before {
+    transform: rotate(45deg) translate(5px, 8px);
+  }
+
+  .menu-hamburger-open:after {
+    background: orange;
+    transform: rotate(-45deg) translate(5px, -8px);
+    width: 28px;
+  }
+
+  .navbar-open {
+    width: 100vh !important;
+    height: 100vh !important;
+    background-color: #261e6bde !important;
+    color: white;
+  }
+}
