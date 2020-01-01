@@ -13,7 +13,7 @@ Menu CSS
   }
 
   .menu-hamburger {
-    content: 'hello';
+    content: '';
     width: 28px;
     height: 3px;
     transition: all 2s ease-out;
@@ -31,7 +31,7 @@ Menu CSS
     height: 3px;
     position: absolute;
     top: -9px !important;
-    right: 0.04rem;
+    right: 0rem;
   }
 
   .menu-hamburger::after {
