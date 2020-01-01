@@ -91,12 +91,10 @@ $(function() {
   $('[data-toggle="tooltip"]').tooltip();
 });
 
-
 // Mobile Menu Js
 let menuDiv = document.querySelector('.menu-div');
-let menuToggle = document.querySelector('.navbar-toggler-icon');
+let menuToggle = document.querySelector('.btn-container');
 let MenuBurgerOpen = document.querySelector('.menu-hamburger');
-let navOpenBtn = document.querySelector('.navbar');
 
 let showMenu = false;
 
@@ -117,4 +115,5 @@ function showMyMenu() {
     showMenu = false;
   }
 }
+
 
