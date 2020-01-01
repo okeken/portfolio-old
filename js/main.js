@@ -90,3 +90,31 @@ AOS.init();
 $(function() {
   $('[data-toggle="tooltip"]').tooltip();
 });
+
+
+// Mobile Menu Js
+let menuDiv = document.querySelector('.menu-div');
+let menuToggle = document.querySelector('.navbar-toggler-icon');
+let MenuBurgerOpen = document.querySelector('.menu-hamburger');
+let navOpenBtn = document.querySelector('.navbar');
+
+let showMenu = false;
+
+menuDiv.addEventListener('click', showMyMenu);
+menuToggle.addEventListener('click', showMyMenu);
+
+function showMyMenu() {
+  if (!showMenu) {
+    MenuBurgerOpen.classList.add('menu-hamburger-open');
+    MenuBurgerOpen.classList.add('menu-hamburger-open:before');
+    MenuBurgerOpen.classList.add('menu-hamburger-open:after');
+
+    showMenu = true;
+  } else {
+    MenuBurgerOpen.classList.remove('menu-hamburger-open');
+    MenuBurgerOpen.classList.remove('menu-hamburger-open:before');
+    MenuBurgerOpen.classList.remove('menu-hamburger-open:after');
+    showMenu = false;
+  }
+}
+
